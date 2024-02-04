@@ -1,0 +1,50 @@
+/* CSS for COVID-19 Information Webpage */
+
+/* Body styling */
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+/* Jumbotron styling */
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Input styling */
+input[type="text"].form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #fff; /* White text color */
+    border-color: #fff; /* White border color */
+}
+
+/* Table styling */
+.table {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+}
+
+/* Table header styling */
+.table thead th {
+    color: #fff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-color: #fff; /* White border color */
+}
+
+/* Table cell styling */
+.table tbody td {
+    border-color: #fff; /* White border color */
+}
